@@ -1,0 +1,56 @@
+1. Por que o Linux recebeu esse nome?
+
+  O termo "Linu" faz homenagem ao seu criador Linus Torvalds e o termo "x" provém do sistema em que o Linux foi baseado, o UNIX. Apesar 
+  disso, o nome não foi dado pelo próprio Linus, que se referia ao S.O. como FREAX, mas sim por Ari Lemmke.
+
+2. O que são daemons?
+
+  Daemons são programas que rodam em segundo plano e que comumente esperas por eventos para oferecer serviços. 
+
+3. O que é o shell?
+
+  O termo refere-se a programas utilizados como meio de interação entre interfaces de usuário para acessos de serviços do Kernel no S.O. 
+
+4. Por que é importante evitar executar o terminal como super-usuário?
+
+  Pois o super usuário tem acesso pleno a todos os serviçoes, e caso ocorra alguma distração, é possível que o sistema ou o trabalho em
+  questão seja danificado.
+
+5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
+
+  A tecla TAB é responsável por esse serviço.
+
+6. Quais botões do teclado apresentam instruções escritas anteriormente?
+
+  A seta para cima.
+
+7. Apresente os respectivos comandos no terminal para: 
+(a) Obter mais informações sobre um comando. 
+  Utilizar man + nome_do_comando.
+(b) Apresentar uma lista com os arquivos dentro de uma pasta. 
+  entrar no diretório da pasta e digitar o comando ls
+(c) Apresentar o caminho completo da pasta.
+  Comando PWD
+(d) Trocar de pasta. 
+  Comando cd /diretório de destino
+(e) Criar uma pasta. 
+
+(f) Apagar arquivos definitivamente.
+
+(g) Apagar pastas definitivamente. 
+
+(h) Copiar arquivos. 
+
+(i) Copiar pastas. 
+(j) Mover arquivos. 
+(k) Mover pastas. 
+(l) Renomear pastas. 
+(m) Apresentar o conteúdo de um arquivo. 
+(n) Apresentar o tipo de um arquivo. 
+(o) Limpar a tela do terminal. 
+  clear
+(p) Encontrar ocorrências de palavras-chave em um arquivo-texto. 
+(q) Ordenar informações em um arquivo-texto. 
+(r) Substituir ocorrências de palavras-chave em um arquivo-texto. 
+(s) Conferir se dois arquivos são iguais.
+(t) Escrever algo na tela.

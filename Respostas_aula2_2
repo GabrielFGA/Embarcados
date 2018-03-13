@@ -31,14 +31,24 @@ Para as questões a seguir, use a pasta no endereço https://github.com/DiogoCae
 
   6. Liste somente os arquivos com extensão .txt.
 
-Liste somente os arquivos com extensão .png.
+    $ls *.txt
 
-Liste somente os arquivos com extensão .jpg.
+  7. Liste somente os arquivos com extensão .png.
+  
+    $ls *.png
 
-Liste somente os arquivos com extensão .gif.
+  8. Liste somente os arquivos com extensão .jpg.
 
-Liste somente os arquivos que contenham o nome 'cal'.
+    $ls *.jpg
 
-Liste somente os arquivos que contenham o nome 'tux'.
+  9. Liste somente os arquivos com extensão .gif.
+    
+    $ls *.gif
 
-Liste somente os arquivos que comecem com o nome 'tux'.
+  10. Liste somente os arquivos que contenham o nome 'cal'.
+  
+  
+
+  11. Liste somente os arquivos que contenham o nome 'tux'.
+
+  12. Liste somente os arquivos que comecem com o nome 'tux'.

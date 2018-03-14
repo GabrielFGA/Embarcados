@@ -13,9 +13,9 @@ Para todas as questões, compile-as com o gcc e execute-as via terminal.
     
    2. Crie um código em C que pergunta ao usuário o seu nome, e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':
 
-$ ./ola_usuario_1
-$ Digite o seu nome: Eu
-$ Ola Eu
+   $ ./ola_usuario_1
+   $ Digite o seu nome: Eu
+   $ Ola Eu
 
     int main(){
     
@@ -30,27 +30,37 @@ $ Ola Eu
 
    3. Apresente os comportamentos do código anterior nos seguintes casos:
 
-(a) Se o usu ário insere mais de um nome.
+   (a) Se o usuário insere mais de um nome.
+   
+   $ ./ola_usuario_1
+   $ Digite o seu nome: Eu Mesmo
+   
+     O segundo nome é suprimido.
 
-$ ./ola_usuario_1
-$ Digite o seu nome: Eu Mesmo
+   (b) Se o usuário insere mais de um nome entre aspas duplas. Por exemplo:
 
-(b) Se o usuário insere mais de um nome entre aspas duplas. Por exemplo:
+   $ ./ola_usuario_1
+   $ Digite o seu nome: "Eu Mesmo"
+   
+    O segundo nome é suprimido e as aspas do início permaneceram: Ola "Gabriel
 
-$ ./ola_usuario_1
-$ Digite o seu nome: "Eu Mesmo"
+   (c) Se é usado um pipe. Por exemplo:
 
-(c) Se é usado um pipe. Por exemplo:
+   $ echo Eu | ./ola_usuario_1
 
-$ echo Eu | ./ola_usuario_1
+    O programa é completamente executado, ou seja, ele reconhece a entrada do nome como no caso normal.
 
-(d) Se é usado um pipe com mais de um nome. Por exemplo:
+   (d) Se é usado um pipe com mais de um nome. Por exemplo:
 
-$ echo Eu Mesmo | ./ola_usuario_1
+   $ echo Eu Mesmo | ./ola_usuario_1
 
-(e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:
+    Só aparece o primeiro nome.
 
-$ echo "Eu Mesmo" | ./ola_usuario_1
+   (e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:
+
+   $ echo "Eu Mesmo" | ./ola_usuario_1
+
+    Aparece o primeiro nome apenas, porém, sem as aspas.   
 
 (f) Se é usado o redirecionamento de arquivo. Por exemplo:
 

@@ -6,12 +6,12 @@
       
   (b) Quais pinos possuem resistores de pull-up e pull-down?
   
-      Todos os pinos acessíveis ao usuário.
+       Todos os pinos acessíveis ao usuário.
 
   (c) Quais formas de comunicação serial são suportados pelos pinos GPIO?
 
-      I2C, SPI e Serial.
+       I2C, SPI e Serial.
 
 2. Apresente outras 3 bibliotecas de acesso I/O em C para o Raspberry Pi.
 
-      WiringPi, pigpio, 
+       WiringPi, pigpio, 

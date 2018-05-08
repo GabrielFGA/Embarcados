@@ -1,7 +1,7 @@
   1. Cite as vantagens e desvantagens das comunicação serial:
   (a) Assíncrona (UART).
   
-      Necessita apenas de dois fios e possui a vantagem de trafegar dados nas duas direções ao mesmo tempo. Entretanto, tem a desvantagem de ser síncrona,
+      Necessita apenas de dois fios e possui a vantagem de trafegar dados nas duas direções ao mesmo tempo. Entretanto, tem a            desvantagem de ser síncrona,
       fazendo necessária a pré-configuração em ambos os dispositivos para que estes saibam qual a frequencia, qual a baud-rate e etc, além de ser mais suscetível
       a erros. 
       
